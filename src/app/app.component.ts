@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cambapoly-web-app';
+
+  public squares: number[] = Array(40).fill(0);
+
+  
 }
